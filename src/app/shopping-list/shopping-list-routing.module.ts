@@ -4,10 +4,7 @@ import { RouterModule } from '@angular/router';
 
 const routes = [
    {
-     path: '',
-     children: [
-       { path: 'shopping-list', component: ShoppingListComponent },
-     ]
+     path: '', component: ShoppingListComponent
    },
 ];
 
